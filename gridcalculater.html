@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        #parent{
+            width: 80%;
+            height: 190px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(4,1fr);
+            margin: auto;
+            margin-top: 10px;
+            gap: 5%;
+            text-align: center;
+            
+            
+        }
+        #parent>div{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            
+        }
+        #papa{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 80%;
+            height: 45px;
+            margin: auto; 
+            
+        }
+        #gf{
+            justify-content: space-around;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 25%;
+            height: 210px;
+            margin: auto;
+            padding-top: 10%;
+            padding-bottom: 15%;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div id="gf">
+    <div id="papa"></div>
+    <div id="parent">
+        
+        <div><p>1</p></div>
+        <div><p>2</p></div>
+        <div><p>3</p></div>
+        <div style="background-color: black;"><p style="color: white;">+</p></div>
+        <div><p>4</p></div>
+        <div><p>5</p></div>
+        <div><p>6</p></div>
+        <div style="background-color: black;"><p style="color: white;">-</p></div>
+        <div><p>7</p></div>
+        <div><p>8</p></div>
+        <div><p>9</p></div>
+        <div style="background-color: black;"><p style="color: white;">*</p></div>
+        <div style="background-color: rgb(247, 5, 5);"><p>c</p></div>
+        <div><p>0</p></div>
+        <div style="background-color: black;"><p style="color: white;">=</p></div>
+        <div style="background-color: black;"><p style="color: white;">/</p></div>
+    </div>
+</div>
+</body>
+</html>
